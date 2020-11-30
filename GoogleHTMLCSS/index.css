@@ -1,0 +1,46 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+  }
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.header .header-left{
+    flex-direction: row;
+    display: flex;
+    flex: 1 1 150px;
+}
+
+.link{
+    padding: 10px;
+
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.search-bar {
+    background: #fff;
+    display: flex;
+    border: 1px solid lightgray;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.search-bar:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
